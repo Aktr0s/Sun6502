@@ -15,3 +15,17 @@
 | `$C000-$FFFF`   | 16KB   | ROM                |
 
 > **Total:** 64KB
+
+## More Info:
+While VIA's and UART have 1KB they only use first needed bits.
+
+VIA#2 Port (Expansion) does not have CE/ signal but Bus Expansion Port does.
+
+It should be compatible with Ben's Breadboard 6502 but you **HAVE** to change memory adressess since the memory map is different as well as elements connected to VIA
+
+### The project took inspiration from:
+* Ben Eater Breadboard 6502 Computer
+* PE6502 by Putnam Electronics
+
+> [!WARNING]
+> This project is yet untested. I yet recently ordered a PCB. When i confirm that the project is indeed working i will result in next commit

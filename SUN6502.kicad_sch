@@ -23028,7 +23028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 41.91 170.4848 0)
 			(effects
 				(font
@@ -24207,7 +24207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 48.26 182.118 90)
 			(effects
 				(font
@@ -28001,7 +28001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_HC18-U_Vertical"
+		(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
 			(at 48.26 171.45 0)
 			(effects
 				(font
