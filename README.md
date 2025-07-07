@@ -38,7 +38,7 @@ It should be compatible with Ben's Breadboard 6502 but you **HAVE** to change me
 
 Software for this computer is based on 
 * [msbasic](https://github.com/mist64/msbasic), licensed under the 2-clause BSD license.
-As well as it's modified version by 
-* [Ben Eater](https://github.com/beneater/msbasic).
+
+* As well as it's modified version by [Ben Eater](https://github.com/beneater/msbasic).
 
 Original README files are in "msbasic_for_sun6502" folder.
