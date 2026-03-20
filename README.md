@@ -32,7 +32,11 @@ It should be compatible with Ben's Breadboard 6502 but you **HAVE** to change me
 
 > [!NOTE]
 > This project has been tested and is confirmed to work.
-> Project uses 74LS TTL chips which are confirmed to work but are not ideal. It is recomended to use CMOS 74HC chips when possible.
+
+> [!CAUTION]
+> Do NOT use 74LS series TTL chips. It messes up logic and memory.
+> Use 74HC series CMOS chips! If somewhere on PCB or schematic there is a mention of TTL chips, ignore them and use CMOS chips!
+
 
 ## Software:
 
