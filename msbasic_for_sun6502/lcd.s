@@ -1,6 +1,5 @@
 .segment "CODE"
-.ifdef EATER
-
+.ifdef SUN6502
 
 E     = %00000001  ; PB0
 RW    = %00000010  ; PB1

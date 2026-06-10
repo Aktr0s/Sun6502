@@ -2,7 +2,7 @@ if [ ! -d tmp ]; then
 	mkdir tmp
 fi
 
-for i in eater; do
+for i in sun6502; do
 
 echo $i
 ca65 -D $i msbasic.s -o tmp/$i.o &&

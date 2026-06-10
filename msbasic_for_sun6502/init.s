@@ -123,7 +123,7 @@ COLD_START:
         lda     #WIDTH2
         sta     Z18
   .endif
-  .ifdef EATER
+  .ifdef SUN6502
         jsr     LCDINIT
   .endif
 .endif
@@ -525,6 +525,8 @@ QT_BASIC:
         .byte   "(C) 1978 MICROSOFT"
     .elseif .def(SYM1)
         .byte   "COPYRIGHT 1978 SYNERTEK SYSTEMS CORP."
+    .elseif .def(SUN6502)
+        .byte   "MS-BASIC FOR SUN6502. ORIGINAL BY MICROSOFT CO. COPYRIGHT 1977"
     .else
         .byte   "COPYRIGHT 1977 BY MICROSOFT CO."
     .endif

@@ -28,6 +28,6 @@
         .byte   0,0,0
 .endif
 
-.ifdef EATER
+.ifdef SUN6502
 .include "bios.s"
 .endif

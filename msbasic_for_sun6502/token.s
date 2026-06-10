@@ -78,9 +78,10 @@
 		keyword_rts "PRT", PRT
 .endif
 		keyword_rts "NEW", NEW
-.ifdef EATER
+.ifdef SUN6502
 		keyword_rts "LCDCMD", LCDCMD
 		keyword_rts "LCDPRINT", LCDPRINT
+		keyword_rts "BEEP", BEEP
 .endif
 
 		count_tokens

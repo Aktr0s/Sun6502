@@ -122,6 +122,10 @@ IRQ_HANDLER:
                 pha
                 phx
                 lda     ACIA_STATUS
+                bpl     @spurious
+                and     #%00001110
+                cmp     #%00001000
+                bne     @error_or_noise
                 lda     ACIA_DATA
                 jsr     WRITE_BUFFER
                 jsr     BUFFER_SIZE
@@ -131,6 +135,17 @@ IRQ_HANDLER:
                 ora     #%01000000          ; Set PB6 = not ready
                 sta     PORTB
 @not_full:
+                plx
+                pla
+                rti
+
+@error_or_noise:
+                lda     ACIA_DATA
+                plx
+                pla
+                rti
+
+@spurious:
                 plx
                 pla
                 rti

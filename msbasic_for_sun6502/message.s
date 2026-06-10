@@ -39,7 +39,12 @@ QT_OK:
 		; binary patch!
         .byte   CR,0,0,"K",CR,LF
     .else
-		.byte   CR,LF,"OK",CR,LF
+      .ifdef SUN6502
+        .byte   CR,LF,"OK",CR,LF,">"
+      .else
+        .byte   CR,LF,"OK",CR,LF
+      .endif
+		
     .endif
   .endif
 		.byte	0
